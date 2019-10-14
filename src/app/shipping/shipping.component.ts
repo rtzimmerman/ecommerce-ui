@@ -13,6 +13,7 @@ export class ShippingComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.getShippingCosts();
   }
 
   getShippingCosts(){

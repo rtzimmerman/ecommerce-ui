@@ -18,11 +18,11 @@ import { ShippingComponent } from './shipping/shipping.component'
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,
-    HttpClientModule,
     ShippingComponent,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent},
